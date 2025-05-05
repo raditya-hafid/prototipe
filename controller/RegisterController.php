@@ -8,9 +8,9 @@ $confirm = $_POST['password_confirmation'];
 // Validasi sederhana
 $errors = [];
 
-if (empty($name) || empty($email) || empty($password) || empty($confirm)) {
-    $errors[] = "Semua field harus diisi.";
-}
+// if (empty($name) || empty($email) || empty($password) || empty($confirm)) {
+//     $errors[] = "Semua field harus diisi.";
+// }
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $errors[] = "Format email tidak valid.";
