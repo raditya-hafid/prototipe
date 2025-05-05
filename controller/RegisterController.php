@@ -12,9 +12,9 @@ $errors = [];
 //     $errors[] = "Semua field harus diisi.";
 // }
 
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $errors[] = "Format email tidak valid.";
-}
+// if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+//     $errors[] = "Format email tidak valid.";
+// }
 
 if ($password !== $confirm) {
     $errors[] = "Konfirmasi password tidak cocok.";
