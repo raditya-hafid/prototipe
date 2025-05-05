@@ -1,4 +1,4 @@
-<!-- views/komentar_form.php -->
+<!-- views/komentar_form.php fr -->
 <h2>Berikan Komentar</h2>
 <form action="../controller/KomentarController.php" method="POST">
     <input type="text" name="user" placeholder="Nama Anda" required><br><br>
