@@ -1,5 +1,5 @@
 <?php
-// Mulai sesi untuk menyimpan riwayat transaksi
+// Mulai sesi untuk menyimpan riwayat transaksi yyy
 session_start();
 
 if (!isset($_SESSION['transactions'])) {
