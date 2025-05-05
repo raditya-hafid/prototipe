@@ -29,4 +29,3 @@
 <?php endif; ?>
 </body>
 </html>
-<!-- Gilang gtg -->
